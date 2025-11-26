@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trattoria del Ladrillo - Menú de comida</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- encabezado con logo y navegacion principal -->
+  <header class="encabezado">
+    <div class="contenedor encabezado-interior">
+      <div class="logo">
+        <img src="img/logo_trattoria.png"
+             alt="Trattoria del Ladrillo"
+             class="logo-imagen">
+        <span class="logo-texto">Trattoria del Ladrillo</span>
+      </div>
+
+      <nav class="navegacion">
+        <a href="index.html">Menú principal</a>
+        <a href="menu.html" class="activo">Menú comida</a>
+        <a href="galeria.html">Galería</a>
+        <a href="promociones.html">Promociones</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- contenido principal del menu de comida -->
+  <main class="contenedor">
+    <div class="panel-inicio">
+      <!-- seccion de introduccion al menu -->
+      <section class="caja caja--resaltada">
+        <div class="titulo-caja">Menú de comida</div>
+        <p class="texto-caja">
+          En esta sección encontrarás los platillos que ofrecemos en
+          <strong>Trattoria del Ladrillo</strong>: entradas, pastas, pizzas,
+          platos fuertes, ensaladas, bebidas y postres. Cada platillo incluye
+          una breve descripción, opciones de tamaño y el precio sugerido.
+        </p>
+      </section>
+
+      <!-- seccion de entradas -->
+      <section class="caja seccion-menu">
+        <h2 class="titulo-seccion-menu">Entradas</h2>
+        <div class="rejilla-menu">
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <!-- imagen de la bruschetta -->
+              <img src="img/brus.jpg" alt="Bruschetta">
+            </div>
+            <h3 class="titulo-platillo">Bruschetta clásica</h3>
+            <p class="descripcion-platillo">
+              Pan tostado con jitomate, albahaca y aceite de oliva.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> 3 piezas / 6 piezas</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $65 / $110</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/quesos.jpg" alt="quesos">
+            </div>
+            <h3 class="titulo-platillo">Tabla de quesos</h3>
+            <p class="descripcion-platillo">
+              Selección de quesos con uvas, nueces y pan.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Para 2 / Para 4</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $150 / $260</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/caprese.jpeg" alt="caprese">
+            </div>
+            <h3 class="titulo-platillo">Ensalada caprese</h3>
+            <p class="descripcion-platillo">
+              Rebanadas de jitomate, mozzarella fresca y pesto.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaño:</strong> Individual</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $95</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- seccion de pastas -->
+      <section class="caja seccion-menu">
+        <h2 class="titulo-seccion-menu">Pastas</h2>
+        <div class="rejilla-menu">
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/alfredo.jpg" alt="Alfredo">
+            </div>
+            <h3 class="titulo-platillo">Pasta Alfredo</h3>
+            <p class="descripcion-platillo">
+              Fettuccine con crema, queso parmesano y mantequilla.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Chico / Mediano / Grande</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $110 / $135 / $160</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/bolonesa.jpg" alt="boloñesa">
+            </div>
+            <h3 class="titulo-platillo">Pasta boloñesa</h3>
+            <p class="descripcion-platillo">
+              Spaghetti con salsa de jitomate y carne molida.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Chico / Mediano / Grande</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $115 / $140 / $165</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/penne.jpg" alt="Penne">
+            </div>
+            <h3 class="titulo-platillo">Penne al pesto</h3>
+            <p class="descripcion-platillo">
+              Pasta con salsa de albahaca, aceite de oliva y nuez.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Mediano / Grande</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $135 / $160</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- seccion de pizzas -->
+      <section class="caja seccion-menu">
+        <h2 class="titulo-seccion-menu">Pizzas al horno</h2>
+        <div class="rejilla-menu">
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/margarita.jpg" alt="Margarita">
+            </div>
+            <h3 class="titulo-platillo">Margarita</h3>
+            <p class="descripcion-platillo">
+              Jitomate, mozzarella y albahaca fresca.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Individual / Mediana / Familiar</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $110 / $160 / $210</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/cuatroquesos.jpg" alt="cuatro quesos">
+            </div>
+            <h3 class="titulo-platillo">Cuatro quesos</h3>
+            <p class="descripcion-platillo">
+              Mezcla de quesos mozzarella, gouda, azul y parmesano.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Individual / Mediana / Familiar</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $125 / $175 / $230</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/peperoni.jpg" alt="de peperoni">
+            </div>
+            <h3 class="titulo-platillo">Peperoni</h3>
+            <p class="descripcion-platillo">
+              Clásica pizza con peperoni y queso mozzarella.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Individual / Mediana / Familiar</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $120 / $170 / $220</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- seccion de platos fuertes y ensaladas -->
+      <section class="caja seccion-menu">
+        <h2 class="titulo-seccion-menu">Platos fuertes y ensaladas</h2>
+        <div class="rejilla-menu">
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/pollo.jpg" alt="Pollo ">
+            </div>
+            <h3 class="titulo-platillo">Pollo al vino</h3>
+            <p class="descripcion-platillo">
+              Pechuga de pollo en salsa de vino blanco con vegetales.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaño:</strong> Plato fuerte</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $185</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/lasagna.jpg" alt="Lasaña">
+            </div>
+            <h3 class="titulo-platillo">Lasaña de carne</h3>
+            <p class="descripcion-platillo">
+              Lasaña horneada con carne, queso y salsa de jitomate.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaño:</strong> Plato fuerte</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $190</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/mediterranea.jpg" alt="mediterránea">
+            </div>
+            <h3 class="titulo-platillo">Ensalada mediterránea</h3>
+            <p class="descripcion-platillo">
+              Mezcla de hojas verdes, aceitunas, jitomate, pepino y queso feta.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Individual / Para compartir</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $110 / $160</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- seccion de bebidas y postres -->
+      <section class="caja seccion-menu">
+        <h2 class="titulo-seccion-menu">Bebidas y postres</h2>
+        <div class="rejilla-menu">
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/limonada.jpg" alt="Limonada">
+            </div>
+            <h3 class="titulo-platillo">Limonada / Naranjada</h3>
+            <p class="descripcion-platillo">
+              Bebida fresca preparada al momento.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaños:</strong> Vaso / Jarra</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $35 / $90</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/vino.jpg" alt="vino tinto">
+            </div>
+            <h3 class="titulo-platillo">Copa de vino tinto</h3>
+            <p class="descripcion-platillo">
+              Vino de la casa para acompañar tus platillos.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaño:</strong> Copa</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $80</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/tiramisu.jpg" alt="Tiramisú">
+            </div>
+            <h3 class="titulo-platillo">Tiramisú</h3>
+            <p class="descripcion-platillo">
+              Postre frío de café, queso mascarpone y cacao.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaño:</strong> Rebanada</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $85</p>
+          </article>
+
+          <article class="tarjeta-menu">
+            <div class="marco-imagen-menu">
+              <img src="img/brownie.jpg" alt="Brownie">
+            </div>
+            <h3 class="titulo-platillo">Brownie con helado</h3>
+            <p class="descripcion-platillo">
+              Brownie de chocolate caliente con bola de helado de vainilla.
+            </p>
+            <p class="tamano-platillo"><strong>Tamaño:</strong> Porción</p>
+            <p class="precio-platillo"><strong>Precio:</strong> $90</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- seccion final que enlaza a promociones -->
+      <section class="caja caja--resaltada">
+        <div class="titulo-caja">Promociones del menú</div>
+        <p class="texto-caja">
+          Contamos con paquetes para compartir, combos de comida y bebida,
+          así como promociones por horario. Para ver los detalles de los
+          cupones y descuentos, visita la sección de
+          <a href="promociones.html">Promociones</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+ <!-- pie de pagina -->
+  <footer class="pie-pagina">
+    <div class="pie-pagina-contenido">
+      <div class="pie-pagina-linea">
+        Nombre del alumno: <strong>Uriel Flores Mendoza</strong>
+      </div>
+      <div class="pie-pagina-linea">
+        Materia: <strong>Nombre de la materia</strong> | Grupo:1507 
+      </div>
+      <div class="pie-pagina-linea">
+        Docente: <strong>Jorge Luis Candelario</strong>
+      </div>
+      <div class="pie-pagina-linea">
+        Proyecto: <strong>Página web para restaurante</strong>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
